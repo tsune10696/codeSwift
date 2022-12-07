@@ -1,0 +1,374 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C75DBDD6292B0631009EC4BF /* ArchiDentakuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75DBDD5292B0631009EC4BF /* ArchiDentakuApp.swift */; };
+		C75DBDD8292B0631009EC4BF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75DBDD7292B0631009EC4BF /* ContentView.swift */; };
+		C75DBDDA292B0632009EC4BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C75DBDD9292B0632009EC4BF /* Assets.xcassets */; };
+		C75DBDDD292B0632009EC4BF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C75DBDDC292B0632009EC4BF /* Preview Assets.xcassets */; };
+		C75DBDE4292B0BC7009EC4BF /* Calc.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75DBDE3292B0BC7009EC4BF /* Calc.swift */; };
+		C75DBDE6292B0C0B009EC4BF /* KeyboradView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75DBDE5292B0C0B009EC4BF /* KeyboradView.swift */; };
+		C75DBDE8292B0C61009EC4BF /* OperatorButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75DBDE7292B0C61009EC4BF /* OperatorButtons.swift */; };
+		C75DBDED292B0CDA009EC4BF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75DBDEC292B0CDA009EC4BF /* SceneDelegate.swift */; };
+		C75DBDEF292B0D01009EC4BF /* NumberPlateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75DBDEE292B0D01009EC4BF /* NumberPlateView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C75DBDD2292B0631009EC4BF /* Dentaku.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dentaku.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C75DBDD5292B0631009EC4BF /* ArchiDentakuApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchiDentakuApp.swift; sourceTree = "<group>"; };
+		C75DBDD7292B0631009EC4BF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C75DBDD9292B0632009EC4BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C75DBDDC292B0632009EC4BF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C75DBDE3292B0BC7009EC4BF /* Calc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calc.swift; sourceTree = "<group>"; };
+		C75DBDE5292B0C0B009EC4BF /* KeyboradView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboradView.swift; sourceTree = "<group>"; };
+		C75DBDE7292B0C61009EC4BF /* OperatorButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperatorButtons.swift; sourceTree = "<group>"; };
+		C75DBDEC292B0CDA009EC4BF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C75DBDEE292B0D01009EC4BF /* NumberPlateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberPlateView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C75DBDCF292B0631009EC4BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C75DBDC9292B0630009EC4BF = {
+			isa = PBXGroup;
+			children = (
+				C75DBDD4292B0631009EC4BF /* ArchiDentaku */,
+				C75DBDD3292B0631009EC4BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C75DBDD3292B0631009EC4BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C75DBDD2292B0631009EC4BF /* Dentaku.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C75DBDD4292B0631009EC4BF /* ArchiDentaku */ = {
+			isa = PBXGroup;
+			children = (
+				C75DBDD7292B0631009EC4BF /* ContentView.swift */,
+				C75DBDE5292B0C0B009EC4BF /* KeyboradView.swift */,
+				C75DBDE3292B0BC7009EC4BF /* Calc.swift */,
+				C75DBDE7292B0C61009EC4BF /* OperatorButtons.swift */,
+				C75DBDEE292B0D01009EC4BF /* NumberPlateView.swift */,
+				C75DBDEC292B0CDA009EC4BF /* SceneDelegate.swift */,
+				C75DBDD5292B0631009EC4BF /* ArchiDentakuApp.swift */,
+				C75DBDD9292B0632009EC4BF /* Assets.xcassets */,
+				C75DBDDB292B0632009EC4BF /* Preview Content */,
+			);
+			path = ArchiDentaku;
+			sourceTree = "<group>";
+		};
+		C75DBDDB292B0632009EC4BF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C75DBDDC292B0632009EC4BF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C75DBDD1292B0631009EC4BF /* ArchiDentaku */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C75DBDE0292B0632009EC4BF /* Build configuration list for PBXNativeTarget "ArchiDentaku" */;
+			buildPhases = (
+				C75DBDCE292B0631009EC4BF /* Sources */,
+				C75DBDCF292B0631009EC4BF /* Frameworks */,
+				C75DBDD0292B0631009EC4BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArchiDentaku;
+			productName = ArchiDentaku;
+			productReference = C75DBDD2292B0631009EC4BF /* Dentaku.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C75DBDCA292B0630009EC4BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					C75DBDD1292B0631009EC4BF = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = C75DBDCD292B0630009EC4BF /* Build configuration list for PBXProject "ArchiDentaku" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C75DBDC9292B0630009EC4BF;
+			productRefGroup = C75DBDD3292B0631009EC4BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C75DBDD1292B0631009EC4BF /* ArchiDentaku */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C75DBDD0292B0631009EC4BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C75DBDDD292B0632009EC4BF /* Preview Assets.xcassets in Resources */,
+				C75DBDDA292B0632009EC4BF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C75DBDCE292B0631009EC4BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C75DBDED292B0CDA009EC4BF /* SceneDelegate.swift in Sources */,
+				C75DBDEF292B0D01009EC4BF /* NumberPlateView.swift in Sources */,
+				C75DBDD8292B0631009EC4BF /* ContentView.swift in Sources */,
+				C75DBDE6292B0C0B009EC4BF /* KeyboradView.swift in Sources */,
+				C75DBDE4292B0BC7009EC4BF /* Calc.swift in Sources */,
+				C75DBDD6292B0631009EC4BF /* ArchiDentakuApp.swift in Sources */,
+				C75DBDE8292B0C61009EC4BF /* OperatorButtons.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C75DBDDE292B0632009EC4BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C75DBDDF292B0632009EC4BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C75DBDE1292B0632009EC4BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ArchiDentaku/Preview Content\"";
+				DEVELOPMENT_TEAM = R7MUPX6W32;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Dentaku;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.tsune10696.Dentaku;
+				PRODUCT_NAME = Dentaku;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C75DBDE2292B0632009EC4BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ArchiDentaku/Preview Content\"";
+				DEVELOPMENT_TEAM = R7MUPX6W32;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Dentaku;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.tsune10696.Dentaku;
+				PRODUCT_NAME = Dentaku;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C75DBDCD292B0630009EC4BF /* Build configuration list for PBXProject "ArchiDentaku" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C75DBDDE292B0632009EC4BF /* Debug */,
+				C75DBDDF292B0632009EC4BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C75DBDE0292B0632009EC4BF /* Build configuration list for PBXNativeTarget "ArchiDentaku" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C75DBDE1292B0632009EC4BF /* Debug */,
+				C75DBDE2292B0632009EC4BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C75DBDCA292B0630009EC4BF /* Project object */;
+}
