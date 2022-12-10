@@ -7,6 +7,7 @@
 
 import SwiftUI
 import NCMB
+import UIKit
 
 // タブを表示
 struct ContentView: View {
@@ -15,7 +16,6 @@ struct ContentView: View {
             TranslateView()
             .padding(3)
         }
-
         .accentColor(.black)
         
 //        TabView {

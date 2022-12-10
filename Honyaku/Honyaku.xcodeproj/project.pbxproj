@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B028641CEC8DCB7603603CD1 /* Pods_Honyaku.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77DEF9D01C396716E7E2D209 /* Pods_Honyaku.framework */; };
 		C7F1B58B293F206200FF2712 /* HonyakuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F1B58A293F206200FF2712 /* HonyakuApp.swift */; };
 		C7F1B58D293F206200FF2712 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F1B58C293F206200FF2712 /* ContentView.swift */; };
 		C7F1B58F293F206400FF2712 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7F1B58E293F206400FF2712 /* Assets.xcassets */; };
@@ -21,6 +22,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		52065F7E1AD6600851795E6F /* Pods-Honyaku.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Honyaku.debug.xcconfig"; path = "Target Support Files/Pods-Honyaku/Pods-Honyaku.debug.xcconfig"; sourceTree = "<group>"; };
+		77DEF9D01C396716E7E2D209 /* Pods_Honyaku.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Honyaku.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9797786D4E8C4C33FFE42AF3 /* Pods-Honyaku.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Honyaku.release.xcconfig"; path = "Target Support Files/Pods-Honyaku/Pods-Honyaku.release.xcconfig"; sourceTree = "<group>"; };
 		C7F1B587293F206200FF2712 /* Honyaku.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Honyaku.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7F1B58A293F206200FF2712 /* HonyakuApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HonyakuApp.swift; sourceTree = "<group>"; };
 		C7F1B58C293F206200FF2712 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -40,17 +44,37 @@
 			files = (
 				C7F1B5A1293F215900FF2712 /* NCMB in Frameworks */,
 				C7F1B5AA293F298E00FF2712 /* Alamofire in Frameworks */,
+				B028641CEC8DCB7603603CD1 /* Pods_Honyaku.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7A9E90C799B60831EB9D4F88 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				77DEF9D01C396716E7E2D209 /* Pods_Honyaku.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7B361E75C657E26C7BB65E91 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				52065F7E1AD6600851795E6F /* Pods-Honyaku.debug.xcconfig */,
+				9797786D4E8C4C33FFE42AF3 /* Pods-Honyaku.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		C7F1B57E293F206200FF2712 = {
 			isa = PBXGroup;
 			children = (
 				C7F1B589293F206200FF2712 /* Honyaku */,
 				C7F1B588293F206200FF2712 /* Products */,
+				7B361E75C657E26C7BB65E91 /* Pods */,
+				7A9E90C799B60831EB9D4F88 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -93,9 +117,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C7F1B595293F206400FF2712 /* Build configuration list for PBXNativeTarget "Honyaku" */;
 			buildPhases = (
+				8DF5E6FBB8A1E8C9CDA2EBC5 /* [CP] Check Pods Manifest.lock */,
 				C7F1B583293F206200FF2712 /* Sources */,
 				C7F1B584293F206200FF2712 /* Frameworks */,
 				C7F1B585293F206200FF2712 /* Resources */,
+				1B6F9840207A2C3FEAFBFF1B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -159,6 +185,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B6F9840207A2C3FEAFBFF1B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Honyaku/Pods-Honyaku-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Honyaku/Pods-Honyaku-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Honyaku/Pods-Honyaku-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8DF5E6FBB8A1E8C9CDA2EBC5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Honyaku-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C7F1B583293F206200FF2712 /* Sources */ = {
@@ -295,6 +363,7 @@
 		};
 		C7F1B596293F206400FF2712 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52065F7E1AD6600851795E6F /* Pods-Honyaku.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -324,6 +393,7 @@
 		};
 		C7F1B597293F206400FF2712 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9797786D4E8C4C33FFE42AF3 /* Pods-Honyaku.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
