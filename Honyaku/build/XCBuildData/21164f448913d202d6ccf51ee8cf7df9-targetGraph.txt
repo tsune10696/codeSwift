@@ -1,4 +1,0 @@
-Target dependency graph (2 targets)
-LTMorphingLabel in Pods, no dependencies
-Pods-Honyaku in Pods, depends on:
-LTMorphingLabel in Pods (explicit)
