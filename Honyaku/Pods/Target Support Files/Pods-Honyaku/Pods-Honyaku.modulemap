@@ -1,6 +1,0 @@
-framework module Pods_Honyaku {
-  umbrella header "Pods-Honyaku-umbrella.h"
-
-  export *
-  module * { export * }
-}
