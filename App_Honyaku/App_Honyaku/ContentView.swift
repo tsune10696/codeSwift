@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  Honyaku
 //
-//  Created by tunaProducts on 2022/12/25.
+//  Created by Ippei.T on 2022/12/25.
 //
 import SwiftUI
 import UIKit
