@@ -7,7 +7,6 @@
 
 import SwiftUI
 import Alamofire
-import UIKit
 
 // DeepL APIのレスポンス用構造体
 struct DeepLResult: Codable {
@@ -24,9 +23,13 @@ struct TranslateView: View {
     @State private var originalText = ""
     // 翻訳結果のテキスト
     @State private var translatedText = ""
+    
+    // 詳細画面移行用のBool
+    @State private var showSecondSheet: Bool = false
+    
     // JSONデコード用
     let decoder: JSONDecoder = JSONDecoder()
-    
+
     // 翻訳実行
     func translation() {
         // APIKey.plistに保存したDeepLの認証キーを取得
@@ -93,6 +96,14 @@ struct TranslateView: View {
                                 .textFieldStyle(RoundedBorderTextFieldStyle())
                                 .frame(maxWidth: 300, maxHeight: 200)
                                 .shadow(color: .gray, radius: 5, x: 3, y: 3)
+                                .onTapGesture {
+                                    showSecondSheet = true
+                                }
+                                .sheet(isPresented: $showSecondSheet) {
+                                        TextEditor(text: $translatedText)
+                                            .textFieldStyle(RoundedBorderTextFieldStyle())
+                                            .shadow(color: .gray, radius: 5, x: 3, y: 3)
+                                }
                             HStack(spacing:20){
                                 Text("翻訳結果をコピー：")
                                 Button(action: {
@@ -124,9 +135,3 @@ struct TranslateView: View {
     }
 }
 
-
-struct TranslateView_Previews: PreviewProvider {
-    static var previews: some View {
-        TranslateView()
-    }
-}
